@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="icon" 
+      type="image/png" 
+      href="./favicon.ico">
+
+<title>SunTrust - Site Central</title>
+</head>
+<body>
+<!-- Author: Radeesh -->
+<!-- Date: 1/8/2014 -->
+<style>
+body{
+family-name:arial;
+
+}
+a{
+	color:#245A7A;
+	font-size: 14pt;
+	text-decoration:none;
+}
+a:visited{
+	color:#245A7A;
+} 
+a:hover{
+	color:#A30008;
+}
+h3{
+color:#0969A2;
+border-bottom-style:dotted;
+border-width:2px;
+}
+h4
+{
+margin-top:0px;
+margin-bottom:3px;
+border-bottom-style:dotted;
+border-width:1px;
+color:#3D9AD1;
+}
+div
+{
+margin:0px;
+width: 1024px;
+}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  $("#apps").hide();
+  $("#env").hide();
+  $("#alm").hide();
+  $("#auto").hide(); 
+  $("#info").hide(); 
+ 
+  $("#appsh").click(function(){
+    $("#apps").slideToggle("slow");
+  });
+
+  $("#envh").click(function(){
+    $("#env").slideToggle("slow");
+  });
+
+  $("#almh").click(function(){
+    $("#alm").slideToggle("slow");
+  });
+
+  $("#autoh").click(function(){
+    $("#auto").slideToggle("slow");
+  });
+
+  $("#infoh").click(function(){
+    $("#info").slideToggle("slow");
+  });
+
+});
+</script>
+</head>
+<body>
+<h3>SunTrust - Links & Info</h3>
+<h4 id="appsh"> Applications </h4>
+<div id="apps">
+</br>
+</div>
+
+
+<h4 id="envh"> Environments </h4>
+<div id="env">
+</br>
+</div>
+
+
+<h4 id="almh">ALM Paths</h4>
+<div id="alm">
+</br>
+</div>
+
+<h4 id="autoh"> Automation </h4>
+<div id="auto">
+</br>
+</div>
+
+<h4 id="infoh">Information</h4>
+<div id="info">
+</br>
+</div>
+
+</body>
+</html>
