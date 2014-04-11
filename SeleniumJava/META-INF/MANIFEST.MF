@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: mavenProj
+Bundle-SymbolicName: mavenProj
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.sel.keyword,
+ com.sel.practice
